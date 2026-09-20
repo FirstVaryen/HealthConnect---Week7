@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+/Output/
+reports/*.md
+
+# working folders, not part of the submission
+_backup_before_restructure/
+_session_handoff/

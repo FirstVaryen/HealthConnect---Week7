@@ -1,0 +1,24 @@
+﻿OUTCOMES: {'No-Show': 2423, 'Attended': 2314, 'Cancelled': 263}
+
+=== PART A: KPI 5 cancellation-to-no-show ratio ===
+Overall n=5000 ratio=0.109 CI [0.095, 0.124]
+0-7 days    n=  640 ratio=0.202 CI [0.134, 0.279]
+8-14 days   n=  602 ratio=0.139 CI [0.089, 0.200]
+15-30 days  n= 1333 ratio=0.118 CI [0.090, 0.151]
+31-45 days  n= 1258 ratio=0.105 CI [0.080, 0.132]
+46-60 days  n= 1167 ratio=0.076 CI [0.057, 0.098]
+
+=== PART B: distance effect inside each lead-time band (distance known only) ===
+Rows with known distance: 4910 of 5000
+Spearman corr distance vs lead days: -0.008
+0-7 days    <15km: 25.5% (n=499)  15+km: 35.9% (n=128)  diff=+10.5pp CI [+1.3, +19.6]
+8-14 days   <15km: 32.8% (n=472)  15+km: 36.4% (n=118)  diff=+3.6pp CI [-6.1, +13.3]
+15-30 days  <15km: 41.4% (n=1051)  15+km: 50.2% (n=259)  diff=+8.8pp CI [+2.0, +15.6]
+31-45 days  <15km: 52.4% (n=1028)  15+km: 59.4% (n=212)  diff=+7.0pp CI [-0.3, +14.3]
+46-60 days  <15km: 66.6% (n=912)  15+km: 72.7% (n=231)  diff=+6.2pp CI [-0.3, +12.7]
+ALL bands   <15km: 47.0%  15+km: 54.1%  diff=+7.1pp
+
+=== PART C: Logistic Regression with vs without distance (5-fold CV ROC-AUC) ===
+without distance     AUC 0.6732 +/- 0.0101
+with distance (km)   AUC 0.6772 +/- 0.0099
+with 15+km flag      AUC 0.6765 +/- 0.0095

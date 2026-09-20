@@ -1,0 +1,4 @@
+definition,rule,n_bookings,share_of_5000_bookings_pct,no_show_rate_pct,note
+A validated DA definition,booking_lead_days >= 31 AND previous_no_shows >= 2,233,4.66,73.0,"Matches the Week 6 finding: about 4.7% of bookings, about 73% risk"
+B as coded in train_improved.py,booking_lead_days >= 46 AND previous_no_shows >= 2,123,2.46,82.1,Narrower and more extreme than the finding its code comment cites
+C left out by the coded version,booking_lead_days 31 to 45 AND previous_no_shows >= 2,110,2.2,62.7,"Same stacking effect, silently excluded from the flag"
