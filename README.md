@@ -6,9 +6,11 @@
 **Prepared by:** Hillary Emmanuel
 **Week 7 focus:** Analytics Testing & Refinement (test and validate the Week 6 dashboard and findings end to end, plus a cross-track test with the DS track collaborator)
 
-**Google Drive submission folder:** to be added after upload
+**Google Drive submission folder:** https://drive.google.com/drive/folders/1mM28YPbJ0y2h-4pkI9aTWKqdQ3FxZsm_?usp=sharing
 
-**Week 7 published social posts:** to be added after publishing
+**Week 7 published social posts:**
+- LinkedIn: https://www.linkedin.com/posts/hillary-emmanuel-205451135_analystlabafrica-dataanalytics-intern-activity-7507557140178350080-KHqL?utm_source=share&utm_medium=member_desktop&rcm=ACoAACD93OUBbxQP-xkcr5bBRKf4Zakl-tEhKYk
+- X: https://x.com/Varyen01/status/2101792900044505438?s=20
 
 ---
 
